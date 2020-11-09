@@ -8,7 +8,7 @@ image:
   repository: percona/pmm-server
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "2.9.1"
+  tag: "2.10.1"
 
 imagePullSecrets: []
 nameOverride: ""
@@ -29,7 +29,7 @@ env:
   - name: SERVER_USER
     value: "admin"
   - name: SERVER_PASSWORD
-    value: "a123123"
+    value: "123456"
   - name: METRICS_RESOLUTION
     value: "5s"
   - name: DATA_RETENTION
